@@ -40,7 +40,9 @@ const NewsList = () => {
     };
 
     if (status === 'loading') {
-        return <div>Loading...</div>;
+        return (<div class="loadPage">
+            <div>Loading Your News</div>
+        </div>);
     }
 
     if (status === 'failed') {

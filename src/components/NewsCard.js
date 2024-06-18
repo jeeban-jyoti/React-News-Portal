@@ -23,7 +23,6 @@ const NewsCard = ({ article, handleFavorite, isFavorite }) => {
       {article.image && (
         <img
           src={article.image}
-          alt={article.title}
           className="news-card-image"
         />
       )}
