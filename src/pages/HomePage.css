@@ -18,8 +18,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 213.33vh; /* 177.78vh * 1.2 for 20% zoom */
-    height: 120vh; /* 100vh * 1.2 for 20% zoom */
+    width: 213.33vh;
+    height: 120vh;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }

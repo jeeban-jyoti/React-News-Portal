@@ -1,4 +1,3 @@
-// components/NewsList.js
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchEventRegistryArticles, addFavorite, removeFavorite, toggleFavoriteView, setPage, setQuery, setCategory } from '../redux/newsSlice';
@@ -8,8 +7,8 @@ import './NewsList.css';
 const NewsList = () => {
     const dispatch = useDispatch();
     const { articles, favorites, isFav, status, error, currentPage, currentQuery, currentCategory } = useSelector((state) => state.news);
-    const [query, setquery] = useState(currentQuery); // Initial search query
-    const [showDropdown, setShowDropdown] = useState(false); // State to show/hide dropdown
+    const [query, setquery] = useState(currentQuery);
+    const [showDropdown, setShowDropdown] = useState(false);
 
     useEffect(() => {
         dispatch(fetchEventRegistryArticles({ query: currentQuery, page: currentPage, category: currentCategory }));

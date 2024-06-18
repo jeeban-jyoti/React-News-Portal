@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const apiKey = 'aae9248c-537e-45b9-ac27-1bdd88e6b22d'; // Replace with your Event Registry API key
+const apiKey = 'aae9248c-537e-45b9-ac27-1bdd88e6b22d';
 const baseUrl = 'https://eventregistry.org/api/v1/article';
 
 export const fetchEventRegistryArticles = createAsyncThunk(

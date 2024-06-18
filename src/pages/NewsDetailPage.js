@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import './NewsDetail.css'; // Import the CSS file
+import './NewsDetail.css';
 
 const NewsDetail = () => {
   const location = useLocation();

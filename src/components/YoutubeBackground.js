@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 
 const YouTubeBackground = ({ videoId }) => {
   useEffect(() => {
-    // Load the YouTube IFrame API
     window.onYouTubeIframeAPIReady = () => {
       new window.YT.Player('background-video', {
         videoId: videoId,

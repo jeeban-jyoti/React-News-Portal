@@ -22,8 +22,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 177.78vh; /* 100% of viewport height * 16/9 aspect ratio */
-    height: 100vh; /* 100% of viewport height */
+    width: 177.78vh;
+    height: 100vh;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
@@ -155,15 +155,15 @@ button[type="submit"]:hover {
 }
 
 .news-card-title {
-    text-decoration: none; /* Remove underline */
-    color: black; /* Ensure it inherits the color */
+    text-decoration: none;
+    color: black;
     font-size: 1.25em;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .news-card-title:hover {
-    text-decoration: underline; /* Optionally add underline on hover */
+    text-decoration: underline;
 }
 
 .news-card button {
